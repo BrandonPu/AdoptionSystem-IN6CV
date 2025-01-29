@@ -1,18 +1,18 @@
-'use strict'
+'use strict';
 
-import mongoose, { mongo } from "mongoose";
+import mongoose from 'mongoose';
 
 export const dbConnection = async () => {
     try {
         mongoose.connection.on('error', () => {
-            console.log('MongoDB | could not be connected to MongoDB');
+            console.log('MongoDB | connected to MongoDB');
             mongoose.disconnect();
         });
         mongoose.connection.on('connecting', () => {
-            console.log('MongoDB | Try connection');
+            console.log('MongoDB | try connection');
         });
         mongoose.connection.on('connected', () => {
-            console.log('MongoDB | connected to MongoDB');
+            console.log('MongoDB | try connection');
         });
         mongoose.connection.on('open', () => {
             console.log('MongoDB | connected to database');
@@ -25,7 +25,7 @@ export const dbConnection = async () => {
         });
         await mongoose.connect(process.env.URI_MONGO, {
             serverSelectionTimeoutMS: 5000,
-            maxPoolSize: 50,
+            maxPoolSize: 50
         });
     } catch (error) {
         console.log('Database connection failed', error);

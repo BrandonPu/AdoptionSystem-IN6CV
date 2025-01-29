@@ -1,2 +1,2 @@
-# AdoptionSystem-IN6CV
-Este es un proyecto de Adopcion
+# adoptionSystem
+Sistema de adopción de animales.
