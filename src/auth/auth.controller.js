@@ -8,11 +8,8 @@ export const login = async (req, res) => {
 
     try {
         
-        const lowerEmail = email ? email.toLowerCase() : null;
-        const lowerUsername = username ? username.toLowerCase() : null;
-
         const user = await Usuario.findOne({
-            $or: [{ email: lowerEmail }, { username: lowerUsername }]
+            $or: [{ email }, { username }]
         });
 
         if(!user){
