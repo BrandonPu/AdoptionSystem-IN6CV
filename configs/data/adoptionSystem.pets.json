@@ -1,57 +1,19 @@
 [{
   "_id": {
-    "$oid": "67a3c5bd1d9bb7681e1edf48"
+    "$oid": "67ab7de6fce2c29c0e3595b4"
   },
-  "name": "Brandon",
-  "description": "perro salchicha",
-  "age": 32,
+  "name": "Max",
+  "description": "Perro salchicha",
+  "age": 15,
   "type": "PERRO",
   "keeper": {
-    "$oid": "67a3b9ce4c389883d2e53b3b"
+    "$oid": "67ab7458fce2c29c0e35959f"
   },
   "status": true,
   "createdAt": {
-    "$date": "2025-02-05T20:10:37.115Z"
+    "$date": "2025-02-11T16:42:14.712Z"
   },
   "updatedAt": {
-    "$date": "2025-02-05T22:32:41.988Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "67a3ce5eb41676940dd9af74"
-  },
-  "name": "Brandon",
-  "description": "perro salchicha",
-  "age": 32,
-  "type": "PERRO",
-  "keeper": {
-    "$oid": "67a3b9ce4c389883d2e53b3b"
-  },
-  "status": true,
-  "createdAt": {
-    "$date": "2025-02-05T20:47:26.069Z"
-  },
-  "updatedAt": {
-    "$date": "2025-02-05T22:16:44.808Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "67a3d754889ec5e463e563d7"
-  },
-  "name": "Werner",
-  "description": "Pastor Aleman",
-  "age": 25,
-  "type": "PERRO",
-  "keeper": {
-    "$oid": "67a3d719889ec5e463e563d2"
-  },
-  "status": true,
-  "createdAt": {
-    "$date": "2025-02-05T21:25:40.529Z"
-  },
-  "updatedAt": {
-    "$date": "2025-02-05T22:16:05.169Z"
+    "$date": "2025-02-11T16:49:05.687Z"
   }
 }]

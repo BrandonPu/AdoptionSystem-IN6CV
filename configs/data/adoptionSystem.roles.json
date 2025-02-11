@@ -1,18 +1,18 @@
 [{
   "_id": {
-    "$oid": "67a3b94ee1e433f8265c3c93"
+    "$oid": "67ab72b94c4eea970465d5b9"
   },
   "role": "ADMIN_ROLE"
 },
 {
   "_id": {
-    "$oid": "67a3b95be1e433f8265c3c95"
+    "$oid": "67ab72da4c4eea970465d5bb"
   },
   "role": "USER_ROLE"
 },
 {
   "_id": {
-    "$oid": "67a3ea283d4a0223ec4fae4d"
+    "$oid": "67ab73094c4eea970465d5bd"
   },
-  "role": "VENTAS_ROLE"
+  "user": "VENTAS_ROLE"
 }]
