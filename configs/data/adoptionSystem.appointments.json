@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "67acba169343e0dca3fb1f3f"
+  },
+  "animalName": "Rocky",
+  "animalType": "PERRO",
+  "age": 4,
+  "appointmentDate": {
+    "$date": "2025-03-10T10:00:00.000Z"
+  },
+  "vet": "Dra. María González",
+  "reason": "Chequeo anual y vacunación",
+  "owner": {
+    "$oid": "67acb42d6af909706981d667"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-12T15:11:18.727Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-12T15:11:18.727Z"
+  }
+}]

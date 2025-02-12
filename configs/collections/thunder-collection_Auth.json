@@ -1,45 +1,45 @@
 {
     "clientName": "Thunder Client",
     "collectionName": "Auth",
-    "collectionId": "32298dd9-b83e-4d68-a2b0-449ace02a0b5",
-    "dateExported": "2025-02-11T16:51:46.806Z",
+    "collectionId": "a1e1fc6c-1dc0-4975-a9f0-b13a18be58d6",
+    "dateExported": "2025-02-12T17:16:14.930Z",
     "version": "1.2",
     "folders": [],
     "requests": [
         {
-            "_id": "ad9057c5-e8d0-47a6-af39-e82e5232a782",
-            "colId": "32298dd9-b83e-4d68-a2b0-449ace02a0b5",
+            "_id": "f9bbf721-07ad-4860-9d44-856adbc65450",
+            "colId": "a1e1fc6c-1dc0-4975-a9f0-b13a18be58d6",
             "containerId": "",
             "name": "Register",
             "url": "http://localhost:3000/adoptionSystem/v1/auth/register",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2025-02-11T15:53:45.881Z",
-            "modified": "2025-02-11T16:04:47.640Z",
+            "created": "2025-02-11T16:52:56.247Z",
+            "modified": "2025-02-12T14:46:05.518Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Ricardo\",\n  \"surname\": \"Hernandez\",\n  \"username\": \"rhernandez\",\n  \"email\": \"rhernandez@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"USER_ROLE\"\n  \n}",
+                "raw": "{\n  \"name\": \"Marlon\",\n  \"surname\": \"Garcia\",\n  \"username\": \"mgarcia\",\n  \"email\": \"mgarcia@gmail.com\",\n  \"password\": \"12345678\",\n  \"profilePicture\": \"\",\n  \"phone\": \"12345678\",\n  \"role\": \"USER_ROLE\"\n  \n}",
                 "form": []
             }
         },
         {
-            "_id": "6e18a95f-2366-49f6-87cd-9c4a7b407c34",
-            "colId": "32298dd9-b83e-4d68-a2b0-449ace02a0b5",
+            "_id": "22fc3d2d-121e-44c1-b2a3-b1cc7c110daf",
+            "colId": "a1e1fc6c-1dc0-4975-a9f0-b13a18be58d6",
             "containerId": "",
             "name": "Login",
             "url": "http://localhost:3000/adoptionSystem/v1/auth/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2025-02-11T16:05:53.171Z",
-            "modified": "2025-02-11T16:07:21.074Z",
+            "created": "2025-02-11T16:52:56.248Z",
+            "modified": "2025-02-12T17:13:24.544Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"username\": \"bpu\",\n  \"password\": \"12345678\"\n}",
+                "raw": "{\n  \"username\": \"lpichiya\",\n  \"password\": \"87654321\"\n}",
                 "form": []
             }
         }
     ],
-    "ref": "9ShoX0ZfqX0H4MXAJ968AQuIdg0kN67t5Wx5ljME3tSPYIeTw2zy2mc5SyDG-OyUOoifREmWJsOQ2LSqODnHSQ"
+    "ref": "uSJLDJeIGYVMRDGxien5kZar65AliQTaSIRpVl2ND6M2J580s_7fiK8fJlX-7oWePDUS7EBg5bXUq8N7ikWl4g"
 }

@@ -2,9 +2,9 @@
   "_id": {
     "$oid": "67ab7de6fce2c29c0e3595b4"
   },
-  "name": "Max",
-  "description": "Perro salchicha",
-  "age": 15,
+  "name": "Maximo",
+  "description": "Perro Pug",
+  "age": 11,
   "type": "PERRO",
   "keeper": {
     "$oid": "67ab7458fce2c29c0e35959f"
@@ -14,6 +14,6 @@
     "$date": "2025-02-11T16:42:14.712Z"
   },
   "updatedAt": {
-    "$date": "2025-02-11T16:49:05.687Z"
+    "$date": "2025-02-12T04:13:37.060Z"
   }
 }]

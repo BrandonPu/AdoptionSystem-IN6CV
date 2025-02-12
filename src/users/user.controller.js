@@ -1,5 +1,5 @@
 import { response, request } from "express";
-import { hash } from "argon2";
+import { hash, verify } from "argon2";
 import User from "./user.model.js"
 
 export const getUsers = async (req = request, res = response) => {
@@ -107,4 +107,53 @@ export const deleteUser = async (req, res) => {
             error
         })
     }   
+}
+
+export const changePassword = async (req, res = response) => {
+    try {
+        const { id } = req.params;
+        const { oldPassword, newPassword } = req.body;
+
+        if (!oldPassword || !newPassword) {
+            return res.status(400).json({
+                success: false,
+                msg: "Debe proporcionar la contraseña actual y la nueva"
+            });
+        }
+
+        const user = await User.findById(id);
+        if (!user) {
+            return res.status(404).json({
+                success: false,
+                msg: "Usuario no encontrado"
+            });
+        }
+
+        const isMatch = await verify(user.password, oldPassword);
+        if (!isMatch) {
+            return res.status(400).json({
+                success: false,
+                msg: "La contraseña actual es incorrecta"
+            });
+        }
+
+        const hashedPassword = await hash(newPassword);
+
+        user.password = hashedPassword;
+
+        await user.save();
+
+        res.status(200).json({
+            success: true,
+            msg: "Contraseña actualizada con éxito"
+        });
+        
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            success: false,
+            msg: "Error al actualizar la contraseña",
+            error: error.message
+        });
+    }
 }

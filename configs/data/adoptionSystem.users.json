@@ -26,7 +26,7 @@
   "surname": "Pichiya",
   "username": "lpichiya",
   "email": "rhernandez@gmail.com",
-  "password": "$argon2id$v=19$m=65536,t=3,p=4$LepNbiNhKjKO9eSQm794Gg$XDQdaBXCFGOMLTnjnIIdLhxYhvt4iy6W7sCRdeP26As",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$8CBWQTY+qLVIMsE3EBoN3A$yaJTN8k08M9pANihk8j1uZQ3JOZfbA4HyeoVeJ5peGo",
   "profilePicture": "",
   "phone": "12345678",
   "role": "USER_ROLE",
@@ -35,6 +35,26 @@
     "$date": "2025-02-11T16:04:47.634Z"
   },
   "updatedAt": {
-    "$date": "2025-02-11T16:34:36.790Z"
+    "$date": "2025-02-12T17:12:38.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67acb42d6af909706981d667"
+  },
+  "name": "Marlon",
+  "surname": "Garcia",
+  "username": "mgarcia",
+  "email": "mgarcia@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$LdsjKmhUQVuBBAhFg2KLAw$0UjmLVI+YfUdYDeey6iuYknnFWlrs9SQtT56hJv/DaM",
+  "profilePicture": null,
+  "phone": "12345678",
+  "role": "USER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-12T14:46:05.499Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-12T14:46:05.499Z"
   }
 }]
